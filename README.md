@@ -2,7 +2,7 @@
 
 Backbone.sync wrapper for preventing request race conditions.
 
-Loose fork of [backbone-safesync](https://github.com/amccloud/backbone-safesync)
+Loose fork of [backbone-safesync](https://github.com/amccloud/backbone-safesync).
 
 [![npm Version][npm-badge]][npm]
 [![Build Status][build-badge]][build-status]
@@ -45,7 +45,7 @@ the last request made wins.
 #### `abortPending(Backbone)`
 
 Main export. Takes a given Backbone instance and decorates `Backbone.sync` to
-provide new functionality.
+provide new functionality. Returns the modified Backbone instance.
 
 #### `abortPending` (as a `$.ajax` option)
 
